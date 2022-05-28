@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MinecraftiaRegular'; 
+}
+
+.witam {
+    font-family: 'Minecraft', sans-serif;
+}
+/* ---- PAGES ----- */
+
+/* MAIN PAGE */ 
+
+/* ---- SECTIONS ---- */
+
+/* -- LANDING PAGE -- */
+
+.landingPage {
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+
+.landingImage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./images/landing.jpg");
+    filter: blur(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -99;
+
+
+    /* border: 3px solid red; */
+}
+
+/* --- GMINA LOGO === */ 
+
+.landingContent {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8% 0 0 0;
+
+}
+
+/* --- LANDING YELLOW CLIP --- */
+
+.landingTilt {
+    color: rgb(255, 242, 0);
+    text-shadow: 2px 2px black;
+    margin-left: 57%;
+    margin-top: -10%;
+    transform: rotate(-27deg);
+    font-size: 20px;
+   
+}
+
+.landingClip {
+    animation: heartBeat 0.5s infinite;
+    /* border: 2px solid blue; */
+    position: fixed;
+
+}
+
+@keyframes heartBeat {
+    from {
+        transform: scale(1);
+    
+    }
+    50% {
+        transform: scale(1.1);
+
+    }
+}
+
+
+/* --- MENU --- */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid pink; */
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.menu, a:link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu, a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* --- MENU BUTTONS --- */
+
+
+.menuButtons {
+    font-size: 25px;
+    width: 100%;
+    padding: 0.7rem;
+    color: white;
+    text-shadow: 3px 3px black;
+    background-color: grey;
+    margin: 2%;
+    border: 2px solid black;
+}
+
+.menuButtons:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+/* --- FOOTER --- */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 120%;
+    margin: 6rem 10px 0 10px;
+
+}
+/* MULTIPLAYER PAGE */
+
+/* ---- SECTIONS ---- */
+
+/* ---- Multipage ---- */
+
+.multiPage {
+    height: 100vh;
+    width: 100vw;
+   
+    
+}
+
+.multiImage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./images/dirt.jpg");
+    filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: -99;
+
+
+    /* border: 3px solid red; */
+}
+
+.welcomeText {
+    position: static;
+    margin: 3rem 0 1rem 0;
+}
+
+.multiWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+   width: 100%;
+   height: 80%;
+   
+}
+.multiContent {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid white; */
+    color: white;
+    text-shadow: 3px 3px black;
+    margin-bottom: 10px;
+    position: static;
+   
+}
+
+/* --- season info --- */
+
+.seasonInfo {
+    
+    
+    background-color: rgba(0, 0, 0, 0.5);;
+    color: white;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+  
+}
+
+.seasonBox {
+    width: 60%;
+    height: 100px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.seasonBox:hover {
+    cursor: pointer;
+}
+
+.seasonDescribtion {
+    margin-top: 10px;
+    color: rgb(194, 194, 194);
+    font-size: 120%;
+}
+
+/* MULTI BUTTONS */
+
+.multiButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid pink; */
+}
+
+.multiButton {
+    font-size: 25px;
+    width: 20%;
+    padding: 0.7rem;
+    color: white;
+    text-shadow: 3px 3px black;
+    background-color: grey;
+    margin: 2%;
+    border: 2px solid black;
+   
+}
+
+.multiButton:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
