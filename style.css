@@ -133,7 +133,7 @@ padding: 8% 0 0 0;
     color: white;
     text-shadow: 3px 3px black;
     font-size: 120%;
-    margin: 6rem 10px 0 10px;
+    margin: 8rem 10px 0 10px;
 
 }
 /* MULTIPLAYER PAGE */
@@ -194,7 +194,6 @@ padding: 8% 0 0 0;
 
 .seasonInfo {
     
-    
     background-color: rgba(0, 0, 0, 0.5);;
     color: white;
     width: 100%;
@@ -208,10 +207,15 @@ padding: 8% 0 0 0;
 }
 
 .seasonBox {
-    width: 60%;
-    height: 100px;
-    border: 1px solid white;
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 120px;
+    max-height: 120px;
+    border: 1px solid rgb(206, 206, 206);
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .seasonBox:hover {
@@ -222,6 +226,35 @@ padding: 8% 0 0 0;
     margin-top: 10px;
     color: rgb(194, 194, 194);
     font-size: 120%;
+}
+
+.seasonCoolumns {
+    border: 2px solid red;
+    align-items: center;
+}
+
+.playerCount {
+    /* border: 2px solid white; */
+    margin: 0 1rem 0 15rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    height: auto;
+    font-size: 130%;
+    
+}
+
+.serverStatus {
+    /* border: 2px solid white; */
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.serverIcon {
+    width: 50px;
+    height: 50px;
 }
 
 /* MULTI BUTTONS */
