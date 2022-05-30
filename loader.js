@@ -6,3 +6,11 @@ function loader() {
   document.ready = document.getElementById("pageLoader").style.display = "none";
 }
 setTimeout(loader, 800);
+
+var modal = document.getElementById("modalEscape");
+
+var btn = document.addEventListener("keypress", (e) => {
+  if (e) {
+    modal.style.display = "flex";
+  }
+});
