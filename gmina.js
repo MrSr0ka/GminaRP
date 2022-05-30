@@ -1,17 +1,27 @@
 var clip = [
-  "Archiwum Gminne",
-  "Witaj w Gminie!",
   "@matebo",
-  "Kuraaaa",
-  "Zgadij kto afczy",
-  "@groobeach",
-  "Andrzej Lubon",
-  "@edmund_krzak",
+  "@Groobeach",
   "@wooyekzbyshek",
+  "@Edmund_Krzak",
+  "@PanKeczu",
+  "@portasss",
+  "Andrzej Lubon",
+  "S.p Lord Heheszko",
+  "Srodkowy Srodkowy!!",
+  "Zgadnij kto afczy?",
+  "NIPPON KAZAAAUWA!!!",
+  "Died of Ligma",
+  "Gminne Wariaty",
+  "Nowy hosting!",
+  "Jest git",
+  "@Sir_Salata",
+  "@sianosvky",
+  "SKRRRTTT",
+  "Bedrock ssie",
+  "Stare chlopy a glupie",
 ];
 
-window.addEventListener("load", go);
-
-window.addEventListener("load") = function () {
-  document.getElementById("landingClip").innerHTML = clip;
-};
+function randomClip() {
+  var randomWord = Math.floor(Math.random() * clip.length);
+  document.getElementById("randoClip").innerHTML = clip[randomWord];
+}
