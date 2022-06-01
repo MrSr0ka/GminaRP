@@ -641,16 +641,25 @@ border: 2px solid pink;
     height: 100vh;
     overflow: hidden;
     background-color: rgba(0,0,0,0.5);
-  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .modalContent {
-    display: none;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+   
     
-    border:2px solid red;
+    /* border:2px solid red; */
+}
+
+.modalMenu {
+    /* border: 2px solid red; */
+    width: 80%;
+
 }

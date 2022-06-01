@@ -9,8 +9,16 @@ setTimeout(loader, 800);
 
 var modal = document.getElementById("modalEscape");
 
-var btn = document.addEventListener("keypress", (e) => {
-  if (e) {
-    modal.style.display = "flex";
+function openModal() {
+  modal.style.display = "flex";
+}
+
+function closeModal() {
+  modal.style.display = "none";
+}
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    openModal();
   }
 });
