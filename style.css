@@ -227,6 +227,7 @@ padding: 8% 0 0 0;
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
+   
   
 }
 
@@ -239,7 +240,14 @@ padding: 8% 0 0 0;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
+    padding: 0 10px 0 10px;
 
+}
+
+.seasonHead {
+    font-size: 130%;
+    margin-top: 10px;
+    
 }
 
 .seasonBox:hover {
@@ -247,34 +255,54 @@ padding: 8% 0 0 0;
 }
 
 .seasonDescribtion {
-    margin-top: 10px;
+    margin-top: 30px;
     color: rgb(194, 194, 194);
     font-size: 120%;
     width: auto;
+    /* border: 2px solid pink; */
+    text-align: start;
+    
+    
 }
 
-.seasonCoolumns {
-    /* border: 2px solid red; */
-    align-items: center;
+.seasonColumns {
+    width: 50%;
+/* border: 2px solid blue; */
+display: flex;
+flex-direction: column;
 }
 
 .playerCount {
     /* border: 2px solid white; */
-    margin: 0 1rem 0 20rem;
-    padding-left: 3rem;
-    display: flex;
-    align-items: center;
-    height: auto;
+
+    height: 100%;
     font-size: 130%;
+/* border: 2px solid yellow; */
+margin-top: 10px;
     
+}
+.liveSeason {
+    color: rgb(5, 250, 5);
+    display: inline;
+}
+
+
+
+.statusBox {
+    /* border: 2px solid white; */
+    display: flex;
+    width: 20%;
+    align-self: center;
+    margin-left: 20rem;
+
 }
 
 .serverStatus {
     /* border: 2px solid white; */
-    margin: 0 1rem 0 1rem;
-    display: flex;
-    align-items: center;
-    height: auto;
+
+    height: 100%;
+    /* border: 2px solid red; */
+    margin-left: 2rem;
 }
 
 .serverIcon {
