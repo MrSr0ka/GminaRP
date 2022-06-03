@@ -18,19 +18,24 @@
 <div class="pusher"></div>
 <section class="landingSection">
     <div class="headerRow">
-<h1 class="aboutH1">Test Prawa Gminnego</h1>
+<h1 class="aboutH1">Rekrutacja i Test Gminny</h1>
 </div>
 <div class="headerContent">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lorem dui, pretium fringilla nunc non, scelerisque condimentum est. Sed eget enim nec leo gravida posuere et quis nisl. Vestibulum dictum velit sit amet vestibulum dignissim.<br>
-         Vivamus nec pulvinar felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut laoreet quam. Nullam ornare nisi nunc, eget cursus est ultrices nec. Donec et mauris eget risus viverra accumsan.
-<br>
-        Sed porttitor tellus quis enim elementum pulvinar. Sed quam est, pharetra a sapien quis, vestibulum finibus turpis. Nullam non fringilla tellus, sed iaculis justo. 
+    <p>Test prawa gminnego zawiera 15 pytan i jest podzielony na 3 kategorie.<br>
         <br>
-        Quisque tempus justo vitae dolor pulvinar, ut iaculis arcu suscipit. Quisque feugiat lectus ornare, vestibulum purus ut, varius sapien. Curabitur congue, mauris eu porttitor elementum, urna est eleifend velit, vel gravida sapien tortor nec neque. Etiam eu mauris ligula. Morbi ut cursus sem, sed scelerisque justo. Aenean dictum nibh sit amet tristique fermentum.
-    
-        Sed porttitor tellus quis enim elementum pulvinar. Sed quam est, pharetra a sapien quis, vestibulum finibus turpis. Nullam non fringilla tellus, sed iaculis justo. 
+        1. Znajomosc Prawa Gminnego <br>
         <br>
-        Quisque tempus justo vitae dolor pulvinar, ut iaculis arcu suscipit. Quisque feugiat lectus ornare, vestibulum purus ut, varius sapien. Curabitur congue, mauris eu porttitor elementum, urna est eleifend velit, vel gravida sapien tortor nec neque. Etiam eu mauris ligula. Morbi ut cursus sem, sed scelerisque justo. Aenean dictum nibh sit amet tristique fermentum.</p>
+        2. Znajomosc logiki gry <br>
+        <br>
+        3. Znajomosc survival i role play <br>
+        <br>
+        <br>
+        Po ukonczeniu testu z wynikiem 80% lub wiecej, otrzymasz zaproszenie do kwestionariusza <br>
+        w ktorym opowiesz nam o sobie, swoim stylu gry i jak chcesz wpasowac sie jako obywatel GminyRP.<br>
+        <br>
+        Twoje podanie zostanie przeanalizowane przez sztab Gminny a Ty otrzymasz zaproszenie na rozmowe na discordzie.
+
+        </p>
 </div>
 </section>
 <div class="gallery4">
@@ -38,14 +43,27 @@
 </div>
 <section class="landingSection">
     <div class="headerRow">
-<h1 class="aboutH1">Quiz Gminny</h1>
+<h1 id ="quizHead" class="aboutH1">Test Gminny</h1>
 </div>
-<div class="quizBox">
-<div class="headerContent quizDiv" id="quiz"></div>
-<button id="quizSubmit" class="multiButton sectionButton">Zakoncz</button>
+<button id="quizBegin" class="multiButton sectionButton">Rozpocznij</button>
+<div id="quizBox">
+<div class="headerContent quizDiv" id="quiz">
+    
+    <h1 id="quizTitle"></h1>
+    <h1 id="quizQuestion"></h1>
+ <div id="questionAnswers">
+     <button id="answerButton" class="answerButton"></button>
+     <button id="answerButton2" class="answerButton"></button>
+     <button id="answerButton3" class="answerButton"></button>
+     <button id="answerButton4" class="answerButton"></button>
+ </div>
+    <button id="quizNext" class="multiButton sectionButton">Nastepne</button>
+</div>
 <div id="results"></div>
+<button id="quizSubmit" class="multiButton sectionButton">Zakoncz</button>
+
 </div>
 </section>
-    
+    <script src="./quiz.js"></script>
 </body>
 </html>
