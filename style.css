@@ -523,10 +523,15 @@ padding: 3rem;
 
 }
 
-.answerButton {
-    margin: 5px 0 5px 0;
-    width: 200px;
-    height: 25px;
+.anwersUl, li {
+    list-style-type: none;
+    
+}
+
+/* quiz answers */
+
+#a_text {
+    color:black;
 }
 
 #quizNext {
